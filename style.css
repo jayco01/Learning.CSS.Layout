@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container01 {
+    width: 100%;
+    height: 300px;
+    border: 2px solid olive;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box01 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid salmon;
+}
+
+.container02 {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    border: 2px solid olive;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box02 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid salmon;
+}
+
+.card_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
