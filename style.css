@@ -15,19 +15,23 @@
 
 .box1 {
     border: 4px solid lightgray;
-    width: 100px;
+    width: 100%;
+    max-width: 100px;
     height: 100px;
 }
 
 .small-boxes-container1 {
+    width: 50%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
 
 .small-box1 {
     border: 4px solid lightgray;
-    width: 50px;
+    width: 100%;
+    max-width: 50px;
     height: 50px;
     margin-right: 24px;
 }
@@ -37,6 +41,7 @@
 .container2 {
     border: 4px solid lightgray;
     padding: 24px 24px 0px 24px;
+    margin-bottom: 50px;
 }
 
 .row {
@@ -63,4 +68,37 @@
     width: 30%;
     height: 100px;
     margin-bottom: 24px;
+}
+
+
+/* layout 3 */
+
+.container3 {
+    border: 4px solid lightgray;
+    padding: 24px;
+}
+
+.big-and-small-box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.small-boxes-container3 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.small-box3 {
+    border: 4px solid lightgray;
+    width: 100%;
+    max-width: 200px;
+    height: 50px;
+}
+
+.box3 {
+    border: 4px solid lightgray;
+    width: 200px;
+    height: 200px;
 }
